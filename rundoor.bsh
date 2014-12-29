@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/pi/doorbell/
+/home/pi/doorbell/doorbell1.py 1>> /home/pi/door.log 2>> /home/pi/doorerr.log &
+
+

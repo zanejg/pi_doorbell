@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /home/pi/doorbell/pi_doorbell/doorbell
-/home/pi/doorbell/pi_doorbell/doorbell/doorbell1.py 1>> /home/pi/door.log 2>> /home/pi/doorerr.log &
+nice /home/pi/doorbell/pi_doorbell/doorbell/doorbell1.py 1>> /home/pi/door.log 2>> /home/pi/doorerr.log &
 cd /home/pi
 
 
